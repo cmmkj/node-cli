@@ -1,0 +1,25 @@
+{
+  "name": "node-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmmkj/node-cli.git"
+  },
+  "author": "along",
+  "license": "ISC",
+  "bin": {
+    "myblog": "./bin/myblog"
+  },
+  "bugs": {
+    "url": "https://github.com/cmmkj/node-cli/issues"
+  },
+  "homepage": "https://github.com/cmmkj/node-cli#readme",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
